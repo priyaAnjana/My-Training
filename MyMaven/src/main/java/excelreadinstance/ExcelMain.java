@@ -9,6 +9,7 @@ public class ExcelMain {
 		String s=ob.readStringData(0, 0);
 	System.out.println(s);
 	System.out.println("display");
+	System.out.println("show");
 		// TODO Auto-generated method stub
 
 	}

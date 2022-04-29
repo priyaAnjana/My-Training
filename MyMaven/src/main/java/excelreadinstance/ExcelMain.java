@@ -8,6 +8,7 @@ public class ExcelMain {
 		ExcelCode ob=new ExcelCode();
 		String s=ob.readStringData(0, 0);
 	System.out.println(s);
+	System.out.println("display");
 		// TODO Auto-generated method stub
 
 	}

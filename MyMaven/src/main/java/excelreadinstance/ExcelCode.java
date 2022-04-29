@@ -26,17 +26,17 @@ public class ExcelCode {
 		
 		Row r=sheet.getRow(row);
 		Cell c=r.getCell(column);
-		CellType  CellType =c.getCellType();
-		switch(celltype)
+		int  CellType =c.getCellType();
+		switch(CellType)
 		{
-		case Cell.
+		case Cell.CELL_TYPE_STRING:
 		{
 			return c.getStringCellValue();
 			
 			}
-		case
+		case Cell.CELL_TYPE_NUMERIC:
 		{
-			int a=c.getNumericCellValue();
+			int a=(int) c.getNumericCellValue();
 			return String.valueOf(a);
 		}
 		}
